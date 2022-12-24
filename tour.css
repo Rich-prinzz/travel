@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.body{
+    background-image: ;
+}
+
+img{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: -3;
+    filter: saturate(95%);
+    filter: ;
+    
+}
+
+.nav a{
+    margin-top: 20px;
+    text-decoration: none;
+    flex-grow: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    
+}
+
+.nav a:hover{
+    color: white;
+    letter-spacing: 1px;
+    padding: 0;
+    margin-top: 18px;
+    border-radius: 20px;
+}
+
+h1{
+    flex-grow: 5;
+    margin-left: 20px;
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+span{
+    border: white;
+    color: gray;
+    background-color: white;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    border: 1px;
+    margin: 11% 35% 0% 35%;
+    background-color: rgb(100, 175, 213);
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 15px;
+    border-radius: 20px;
+    filter: opacity(70%);
+}
+input{
+    border-radius: 20px;
+    border: none;
+    height: 20px;
+    background-color: inherit;
+}
+#password{
+    margin-right: 50px;
+}
+ a.login:hover{
+    border: 1px white;
+}
+
+
+a.signup, a.login{
+    text-decoration: none;
+    background-color: gray;
+    padding: 5px 25px 5px 25px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-family: serif;
+    font-weight: 900;
+    filter: opacity(100%);
+}
+
+a.go{
+    text-decoration: none;
+    margin-left: 40%;
+    background-color: gray;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+hr{
+    margin: 10px 30px 10px 20px;
+}
